@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+:root{
+    --p-color:rgb(23, 32, 42);
+}
+body{
+    background: var(--p-color);
+    overflow-x: hidden;
+}
+.form-control{
+    background: none;
+}
+.form-control::placeholder{
+    color: grey;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.main{
+    background: linear-gradient(to top, var(--p-color), rgb(19, 15, 65), rgb(17, 11, 86));
+    width: 100vw;
+}
+.hero_img{
+    height: 350px;
+    width: 250px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.featurette-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+li{
+    color: black;
+}
